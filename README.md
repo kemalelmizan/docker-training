@@ -8,7 +8,7 @@
 
 ## Playing with Alpine (very small [linux container](http://crunchtools.com/comparison-linux-container-images/))
 
-1. `docker run --name myalpine -it --rm alpine /bin/sh`
+1. `docker run --name myalpine -it --rm alpine sh` for git bash in windows: `winpty docker run --name myalpine -it --rm alpine sh`
 1. in separate terminal: `docker ps -a`
 1. in alpine shell: `apk update && apk add --no-cache curl git zsh nano`
 1. install [oh-my-szh](https://github.com/robbyrussell/oh-my-zsh): `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
