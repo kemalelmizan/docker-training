@@ -5,6 +5,7 @@
 1. [Sign up for a docker ID](https://store.docker.com/signup)
 1. Choose docker CE [from docker store](https://store.docker.com/search?type=edition&offering=community)
 1. Open terminal, run `docker -v`
+1. `docker run busybox echo hello world`
 
 ## Playing with Alpine (very small [linux container](http://crunchtools.com/comparison-linux-container-images/))
 
