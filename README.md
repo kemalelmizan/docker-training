@@ -77,7 +77,7 @@ console.log('Hello world!')
 1. `node hello.js`
 1. Create `Dockerfile`
 ```
-FROM node:latest
+FROM node:alpine
 COPY ./hello.js /
 CMD [ "node", "hello.js" ]
 ```
