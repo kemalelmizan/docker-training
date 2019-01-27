@@ -66,6 +66,13 @@
 1. `docker exec -it purwadhika-mysql1 mysql --version`
 1. `docker exec -it purwadhika-mysql1 mysql -h"localhost" -P"3306" -u"root" -p"pwd1234" -e"SELECT VERSION();"`
 1. `docker exec -it purwadhika-mysql1 mysql -u"root" -p"pwd1234"`
+1. `create database test;`
+1. `show databases;`
+1. `connect test`
+1. `create table users (name text, email text);`
+1. `show tables;`
+1. `insert into users values ('kemal', 'kemalelmizan@gmail.com');`
+1. `select * from users;`
 1. `\q` to quit
 
 ## Creating your own app image
