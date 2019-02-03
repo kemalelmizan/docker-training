@@ -76,6 +76,11 @@
 1. `select * from users;`
 1. `\q` to quit
 
+## Starting mysql
+
+1. `docker run --namepurwadhika-mongo-1 -d mongo:latest`
+1. `docker exec -it purwadhika-mongo-1 mongo`
+
 ## Creating your own app image
 
 1. Create `hello.js` 
