@@ -78,8 +78,9 @@
 
 ## Starting mongo
 
-1. `docker run --name purwadhika-mongo1 -d mongo:latest`
+1. `docker run -p 27017:27017 --name purwadhika-mongo1 -d mongo:latest`
 1. `docker exec -it purwadhika-mongo1 mongo`
+1. Run mongo commands in CLI
 
 ## Creating your own app image
 
