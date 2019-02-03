@@ -76,7 +76,7 @@
 1. `select * from users;`
 1. `\q` to quit
 
-## Starting mysql
+## Starting mongo
 
 1. `docker run --namepurwadhika-mongo-1 -d mongo:latest`
 1. `docker exec -it purwadhika-mongo-1 mongo`
