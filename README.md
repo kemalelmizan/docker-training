@@ -68,8 +68,9 @@
 1. `docker exec -it purwadhika-mysql1 mysql -u"root" -p"pwd1234"`
 1. `create database test;`
 1. `show databases;`
-1. `connect test;`
+1. `use test;`
 1. `create table users (name text, email text);`
+1. `describe users;`
 1. `show tables;`
 1. `insert into users values ('kemal', 'kemalelmizan@gmail.com');`
 1. `select * from users;`
