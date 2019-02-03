@@ -86,8 +86,12 @@
 1. `docker run -p 6379:6379 --name purwadhika-redis1 -d redis:alpine`
 1. `docker exec -it purwadhika-redis1 redis-cli`
 1. `info`
-1. `SET user:123 token123abc`
-1. `GET user:123`
+1. `set user:123 token123abc ex 3600`
+1. `get user:123`
+1. `ttl user:123`
+1. `set user:124 token124abc`
+1. `expire user:124 3600`
+1. `ttl user:124`
 1. `exit`
 
 ## Creating your own app image
